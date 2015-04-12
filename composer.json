@@ -1,0 +1,32 @@
+{
+  "extra": {
+    "installer-paths": {
+      "app/Plugin/Migrations": ["cakedc/migrations"],
+      "app/Plugin/Users": ["cakedc/users"],
+      "app/Plugin/Search": ["cakedc/search"],
+      "app/Plugin/Utils": ["cakedc/utils"],
+      "app/Plugin/Datasources": ["cakephp/datasources"],
+      "app/Plugin/DebugKit": ["cakephp/debug_kit"],
+      "app/Plugin/BoostCake": ["slywalker/boost_cake"],
+      "app/Plugin/aws-sdk-php": ["aws/aws-sdk-php"]
+    }
+  },
+  "require" : {
+    "php": ">=5.2",
+    "ext-mcrypt": "*",
+    "cakedc/migrations": "2.3.*",
+    "cakedc/users": "2.0.*",
+    "cakedc/search": "2.2.*",
+    "cakedc/utils": "1.4.*",
+    "cakephp/datasources": "2.3.x-dev",
+    "cakephp/cakephp" : "2.6.*",
+    "slywalker/boost_cake": "dev-master",
+    "aws/aws-sdk-php": "2.*"
+  },
+  "config": {
+        "vendor-dir": "Vendor/"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*"
+  }
+}
